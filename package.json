@@ -1,0 +1,28 @@
+{
+  "name": "aws-sandbox-jankov",
+  "version": "1.0.0",
+  "description": "Sandbox",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JankovNikola/aws-sandbox-jankov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JankovNikola/aws-sandbox-jankov/issues"
+  },
+  "homepage": "https://github.com/JankovNikola/aws-sandbox-jankov#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1145.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^17.0.36"
+  }
+}
